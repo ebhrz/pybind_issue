@@ -4,6 +4,6 @@
 namespace py = pybind11;
 
 PYBIND11_MODULE(libtest, m) {
-    m.doc() = "rtklib python interface by pybind11"; // optional module docstring
+    m.doc() = "test"; // optional module docstring
     m.def("uncompress",&uncompress,"test");
 }
