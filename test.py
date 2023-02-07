@@ -1,3 +1,3 @@
-import libtest as test
+import build.libtest as test
 #test.uncompress should return 1, but get -3
-test.uncompress("a","b")
+test.call()
